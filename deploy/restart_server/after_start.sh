@@ -1,2 +1,2 @@
 #!/bin/sh
-service httpd restart
+systemctl restart nginx
