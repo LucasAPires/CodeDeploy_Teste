@@ -1,4 +1,5 @@
 #!/bin/sh
 apt update
-apt install -y httpd
+apt list --upgradable
+apt install -y apache2
 service httpd start
